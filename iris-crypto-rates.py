@@ -18,7 +18,7 @@ def extract(data):
 
 coinmarketcap = Market()
 
-crypto_currencies = coinmarketcap.ticker(limit=10, convert='EUR')
+crypto_currencies = coinmarketcap.ticker(limit=4, convert='EUR')
 
 filterd_currencies = list(map(extract, crypto_currencies))
 
