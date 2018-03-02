@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import requests, json
 from coinmarketcap import Market
 
